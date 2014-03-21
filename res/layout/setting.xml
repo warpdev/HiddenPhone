@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="아래에 자신의 호실을 써주세요"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:id="@+id/mEdit"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="설정"
+		android:layout_width="wrap_content"
+		android:onClick="setck"
+		android:id="@+id/set"/>
+
+</LinearLayout>
+
